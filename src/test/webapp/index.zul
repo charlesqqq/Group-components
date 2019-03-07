@@ -1,0 +1,32 @@
+<zk>
+
+	<vlayout apply="test.ctrl.TestComposer">
+		<label value="Inputgroup"/>
+		<inputgroup>
+			<label value="email: "/>
+			<textbox/>
+			<label value="@"/>
+			<textbox/>
+		</inputgroup>
+		<inputgroup>
+			<label value="$"/>
+			<label value="0.00"/>
+			<textbox placeholder="Recipient's username"/>
+		</inputgroup>
+		<inputgroup>
+			<label value="First and last name"/>
+			<textbox/>
+			<textbox/>
+		</inputgroup>
+		<label value="Buttongroup"/>
+		<buttongroup id="bg">
+			<button label="btn1"/>
+			<button label="btn2"/>
+			<button label="btn3"/>
+		</buttongroup>
+		<hlayout>
+			<button id="vertical" label="vertical"/>
+			<button id="addBtn" label="addBtn"/>
+		</hlayout>
+	</vlayout>
+</zk>

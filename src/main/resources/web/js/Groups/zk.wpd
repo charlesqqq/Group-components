@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package name="Groups" language="xul/html" depends="zul" >
+	<widget name="Buttongroup" />
+	<widget name="Inputgroup" />
+</package>

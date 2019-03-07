@@ -1,0 +1,30 @@
+<language-addon>
+    <addon-name>Groups</addon-name>
+  	<version>
+		<version-class>demo.Version</version-class>
+		<version-uid>1.0-SNAPSHOT</version-uid>
+		<zk-version>8.5.0</zk-version><!-- or later -->
+	</version>
+    
+	<language-name>xul/html</language-name>
+	<component>
+		<component-name>buttongroup</component-name>
+		<component-class>demo.Buttongroup</component-class>
+		<widget-class>Groups.Buttongroup</widget-class>
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/buttongroup.js</mold-uri>
+			<css-uri>css/buttongroup.css.dsp</css-uri>
+		</mold>
+	</component>
+	<component>
+		<component-name>inputgroup</component-name>
+		<component-class>demo.Inputgroup</component-class>
+		<widget-class>Groups.Inputgroup</widget-class>
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/inputgroup.js</mold-uri>
+			<css-uri>css/inputgroup.css.dsp</css-uri>
+		</mold>
+	</component>
+</language-addon>
