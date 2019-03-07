@@ -12,10 +12,13 @@ public class TestComposer extends SelectorComposer {
 
 	@Wire
 	private Buttongroup bg;
+	@Wire
+	private Inputgroup ig;
 
 	@Listen("onClick = #vertical")
 	public void vertical() {
 		bg.setVertical(!bg.isVertical());
+		ig.setVertical(!ig.isVertical());
 	}
 
 	@Listen("onClick = #addBtn")

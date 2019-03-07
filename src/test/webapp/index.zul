@@ -13,10 +13,10 @@
 			<label value="0.00"/>
 			<textbox placeholder="Recipient's username"/>
 		</inputgroup>
-		<inputgroup>
+		<inputgroup id="ig">
 			<label value="First and last name"/>
-			<textbox/>
-			<textbox/>
+			<textbox placeholder="First name"/>
+			<textbox placeholder="Last name"/>
 		</inputgroup>
 		<label value="Buttongroup"/>
 		<buttongroup id="bg">
