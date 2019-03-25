@@ -1,2 +1,2 @@
-# Groups-component
+# Group-components
 Buttongroup and Inputgroup
